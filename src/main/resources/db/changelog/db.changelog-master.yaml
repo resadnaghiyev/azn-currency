@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changeset/create-currency-table.xml
+  - include:
+      file: db/changelog/changeset/create-user-table.xml
+  - include:
+      file: db/changelog/changeset/insert-data-user-table.xml
+  - include:
+      file: db/changelog/changeset/change-date-format.xml

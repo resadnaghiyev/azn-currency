@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+            http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+
+    <changeSet id="3" author="rashad">
+        <comment>Inserting Users</comment>
+        <insert tableName="tbl_user">
+            <column name="username" value="resad"/>
+            <column name="password" value="$2a$12$uPr41LH4GnEduu3QZ.CO3uRiUa605iESvGH2jKkNGkXO/9ILtzEE6"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="locked" valueBoolean="false"/>
+        </insert>
+        <insert tableName="tbl_user">
+            <column name="username" value="resad2"/>
+            <column name="password" value="$2a$12$uPr41LH4GnEduu3QZ.CO3uRiUa605iESvGH2jKkNGkXO/9ILtzEE6"/>
+            <column name="enabled" valueBoolean="true"/>
+            <column name="locked" valueBoolean="false"/>
+        </insert>
+
+    </changeSet>
+
+</databaseChangeLog>

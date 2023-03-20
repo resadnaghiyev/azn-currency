@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postgres-currency:5432/currency
+    username: rashad
+    password: password
